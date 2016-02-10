@@ -1,0 +1,19 @@
+body {
+	font-family: Helvetica;
+	text-align: center;
+	/*background-color: grey;*/
+}
+
+li {
+	list-style-type: none;
+}
+
+#main {
+	border: 2px solid black;
+	padding: 2px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Movies</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	
+	<div> 
+		<h1> These are my Favoritest Movies </h1>
+	</div>
+	
+	<div class="col-lg-6 col-centered">
+		<ul>
+		  <% @movies.each do |movie| %>
+		    <li>
+		      <%= movie %>
+		    </li>
+		  <% end %>
+		</ul>
+	</div>
+
+	<div class ="row">	
+		<a href="/"> Home </a>
+	</div>
+  
+  </body>
+</html>
+
+

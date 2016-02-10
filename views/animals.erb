@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aminals</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	
+	<div> 
+		<h1> These are my Favoritest Animals </h1>
+	</div>
+	
+	<div class="col-lg-6 col-centered">
+		<ul>
+		  <% @animals.each do |animal| %>
+		    <li>
+		      <%= animal %>
+		    </li>
+		  <% end %>
+		</ul>
+	</div>
+
+	<div class ="row">	
+		<a href="/"> Home </a>
+	</div>
+  
+  </body>
+</html>
+
+

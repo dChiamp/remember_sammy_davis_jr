@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Songs</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	
+	<h1> My Favoritest Songs </h1>
+	
+	<div class= "col-lg-6 col-centered">
+		<ul>
+		  <% @songs.each do |song| %>
+		    <li>
+		      <%= song %>
+		    </li>
+		  <% end %>
+		</ul>
+	</div>
+
+	<div class ="row">	
+		<a href="/"> Home </a>
+	</div>
+  </body>
+</html>
+
